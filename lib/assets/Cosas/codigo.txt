@@ -1,0 +1,7 @@
+   Loading Simulation
+ ----------------------
+ (System Check Complete
+  Checking for Updates
+  Connecting to Server
+  Running Diagnostics);
+ ----------------------

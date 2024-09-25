@@ -1,0 +1,76 @@
+name: smart_trash
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_cube: ^0.1.1
+  animated_text_kit: ^4.2.1
+  shared_preferences: ^2.0.15
+  just_audio: ^0.9.37
+  animated_glitch: ^2.0.0+2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/Residuos/fondoinicialb.jpg
+    - lib/assets/Residuos/humo.png
+    - lib/assets/Residuos/humo3.png
+    - lib/assets/Residuos/humo2.png
+    - lib/assets/Personaje/Assets/Stand/Tsleep1.png
+    - lib/assets/Personaje/Assets/Extra/dios1.png
+    - lib/assets/Personaje/Assets/Extra/next1.png
+    - lib/assets/Personaje/Assets/Stand/AnimaT1.gif
+    - lib/assets/Iconos/cursor.png
+    - lib/assets/SFX/menu.wav
+    - lib/assets/SFX/Space/Sonidos/fx/alien1.mp3
+    - lib/assets/SFX/Space/Sonidos/fx/alien2.mp3
+    - lib/assets/SFX/Space/Sonidos/fx/alien3.mp3
+    - lib/assets/SFX/Space/Sonidos/fx/scream.wav
+    - lib/assets/SFX/Space/Sonidos/fx/start-level.wav
+    - lib/assets/SFX/Space/Sonidos/battle.wav
+    - lib/assets/SFX/Space/Sonidos/cancionsombra1.wav
+    - lib/assets/SFX/Space/Sonidos/elegante.wav
+    - lib/assets/SFX/Space/Sonidos/loading.wav
+    - lib/assets/SFX/menu.wav
+    - lib/assets/SFX/Space/Sonidos/slow-travel.wav
+    - lib/assets/FX/Efectos/polvo.gif
+    - lib/assets/FX/sim.gif
+    - lib/assets/Cosas/codigo.txt
+    - lib/assets/Planetas/espaciofondo.jpeg
+    - lib/assets/Planetas/luna.gif
+    - lib/assets/Planetas/nivel0.gif
+    - lib/assets/Planetas/nivel5.gif
+    - lib/assets/Planetas/nivel10.gif
+    - lib/assets/Planetas/nivel20.gif
+    - lib/assets/Planetas/nivel30.gif
+    - lib/assets/Planetas/nivel40.gif
+    - lib/assets/Planetas/nivel50.gif
+    - lib/assets/Planetas/star.gif
+    - lib/assets/Planetas/star.png
+    - lib/assets/Planetas/star2.gif
+    - lib/assets/Planetas/asteroide.gif
+    - lib/assets/Planetas/asteroide2.gif
+
+  fonts:
+    - family: Pixel
+      fonts:
+        - asset: lib/assets/Fuentes/Silkscreen/Silkscreen-Regular.ttf
+          weight: 400  # Peso para la versión regular
+        - asset: lib/assets/Fuentes/Silkscreen/Silkscreen-Bold.ttf
+          weight: 700  # Peso para la versión bold
